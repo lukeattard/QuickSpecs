@@ -247,6 +247,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -258,12 +259,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.ico" />
-    <Content Include="rapid_icon_5PZ_icon.ico" />
     <Content Include="Resources\App.bmp" />
+    <None Include="Resources\App.ico" />
     <Content Include="Resources\rapid_icon_5PZ_icon.ico" />
     <None Include="Resources\rapid_icon_5PZ_icon1.ico" />
     <None Include="Resources\rapiddata.png" />
-    <None Include="rapid_icon_5PZ_icon1.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
